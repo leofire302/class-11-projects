@@ -1,0 +1,7 @@
+a = int(input("Enter a number:"))
+# part (1)
+b = a+a
+print("method 1:",b)
+#part (2)
+c = 2*a
+print("method 2:",c)
