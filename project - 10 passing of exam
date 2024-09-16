@@ -1,0 +1,9 @@
+print('Enter marks obtained in 3 subjects')
+s1=int(input())
+s2=int(input())
+s3=int(input())
+avg=(s1+s2+s3)/3
+if avg>40:
+    print('Pass')
+else:
+    print('Fail')
