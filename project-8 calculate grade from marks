@@ -1,0 +1,25 @@
+
+total1 = int(input("enter marks of first subject:"))
+total2 = int(input("enter marks of second subject:"))
+total3 = int(input("enter marks of third subject:"))
+total4 = int(input("enter marks of fourth subject:"))
+total5 = int(input("enter marks of fifth subject:"))
+ 
+tot = total1 + total2 + total3 + total4 + total4
+avg = tot / 5
+ 
+if avg >= 91 and avg <= 100:
+    print("Your Grade is A")
+elif avg >= 81 and avg < 91:
+    print("Your Grade is B")
+elif avg >= 71 and avg < 81:
+    print("Your Grade is C")
+elif avg >= 61 and avg < 71:
+    print("Your Grade is D")
+elif avg >= 51 and avg < 61:
+    print("Your Grade is E")
+elif avg >= 41 and avg < 51:
+    print("Your Grade is F")
+
+else:
+    print("Invalid Input!")
